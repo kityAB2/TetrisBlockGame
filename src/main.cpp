@@ -7,7 +7,7 @@ static MillisTaskManager mtmMain;
 
 void setup() {
     Serial.begin(9600);
-
+    tft.init();
     tft.init();
     tft.setRotation(0);
     tft.setSwapBytes (true);
